@@ -1,9 +1,10 @@
+from .DNDautoclass
 
-name = input("your name is ?")
-age = input("Enter your age")
-weapon = input("Please select one. Spear, Sword, Dagger, Bow.(/n)")
-gender = input("What is your gender?")
-race = input("What is your race?")
+name = input("Your name is ? \n")
+age = input("Enter your age. \n")
+weapon = input("Please select one. \n Spear \n Sword \n Dagger \n Bow \n")
+gender = input("What is your gender? Select one. \n Male \n Female \n or no gender \n")
+race = input("What is your race? Select one of the following. \n Dwarf \n Elf \n Orc \n Human \n or random \n")
 
 
 print("Hello " + name + ".")
@@ -50,7 +51,6 @@ print(press_enter)
 print("You start your journey.")
 print("Party enters house.")
 
-#import random
 
 Zombie = "You've encountered a Zombie!"
 print(Zombie)
